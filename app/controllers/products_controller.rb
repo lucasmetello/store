@@ -19,7 +19,7 @@ class ProductsController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
-  end  # <-- this end was missing
+  end
 
   def edit
   end
